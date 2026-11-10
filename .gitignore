@@ -1,0 +1,28 @@
+# 数据产物（不进版本库）
+md/
+csv/
+tmp/
+*.db
+*.db-journal
+*.db-wal
+*_data.json
+内容广场.html
+nyt_preview.html
+plaza_data.json
+articles_all_2026.csv
+
+# 临时/日志
+*.log
+*.log.err
+nul
+__pycache__/
+*.pyc
+_test*.txt
+*.img
+
+# 杂项产物
+*.db-shm
+*.db-wal
+tools/_listing_*.json
+tools/_queue*.json
+*_pending_this_round.txt
